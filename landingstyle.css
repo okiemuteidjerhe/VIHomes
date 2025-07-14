@@ -200,16 +200,20 @@ nav a:hover, .explore:hover{
 }
 .carousel, .schedule{
     width: 98.5vw;
-    overflow: hidden;
 }
 .carousel-track{
-    display: flex;
-    flex-direction: row;
     gap: 60px;
 }
 .carousel-item{
-    width: 550px;
-    height: 450px;
+    width: 550px !important;
+    height: 450px !important;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .carousel .swiper-button-prev,.carousel .swiper-button-next{
     color: #727f36;
